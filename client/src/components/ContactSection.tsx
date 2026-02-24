@@ -170,7 +170,7 @@ const ContactSection = () => {
                                     type="submit"
                                     variant="default"
                                     size="lg"
-                                    className="w-full cursor-pointer bg-gradient-to-r from-[#3ABEFF] to-[#CB52F8] text-black"
+                                    className="w-full bg-gradient-to-r from-[#3ABEFF] to-[#CB52F8] text-black hover:scale-105 transition-all duration-300 will-change-transform"
                                     disabled={loading}
                                 >
                                     <Send className="w-4 h-4 mr-2" />

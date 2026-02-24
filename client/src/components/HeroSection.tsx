@@ -26,7 +26,7 @@ const HeroSection = () => {
 
                     {/* Subtitle */}
                     <h2 className="text-base sm:text-lg md:text-xl text-gray-400 mb-4 font-medium">
-                        Computer Engineer | Full-Stack Developer
+                        Computer Engineer
                     </h2>
 
                     {/* Description */}

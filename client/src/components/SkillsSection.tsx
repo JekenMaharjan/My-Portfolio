@@ -21,7 +21,7 @@ const SkillsSection = () => {
                 { name: "PHP", icon: <FaPhp className="text-indigo-500" /> },
                 { name: "Laravel", icon: <FaLaravel className="text-red-500" /> },
                 { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
-                { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
+                // { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
                 { name: "C", icon: <SiC className="text-blue-500" /> },
                 { name: "C++", icon: <SiCplusplus className="text-blue-400" /> },
                 { name: "C#", icon: <SiSharp className="text-purple-500" /> },

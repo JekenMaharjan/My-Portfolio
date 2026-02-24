@@ -10,25 +10,25 @@ const ProjectsSection = () => {
             description: "Modern, responsive portfolio website showcasing my projects and skills with smooth animations and optimized performance.",
             technologies: ["React", "Next.js", "Tailwind CSS", "ShadCN", "TypeScript"],
             githubUrl: "https://github.com/jekenmaharjan/my-portfolio",
-            liveUrl: "/",
+            liveUrl: "https://jekenmaharjan.com.np/",
             featured: true
         },
         {
             title: "OfficeCare E-Commerce",
             description: "Full-stack e-commerce platform for office supplies with user authentication, cart functionality, and admin dashboard.",
             technologies: ["React", "Next.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-            githubUrl: "https://github.com/jekenmaharjan/officecare",
-            liveUrl: "/maintenance",
+            githubUrl: "https://github.com/JekenMaharjan/officecare-ecommerce-fullstack",
+            liveUrl: "https://officecare-ecommerce-fullstack-frontend.onrender.com/",
             featured: true
         },
-        {
-            title: "Minesweeper Game",
-            description: "Classic Minesweeper game built with JavaScript featuring different difficulty levels and responsive design.",
-            technologies: ["JavaScript", "React", "Tailwind CSS", "Next.js"],
-            githubUrl: "https://github.com/jekenmaharjan/minesweeper",
-            liveUrl: "/maintenance",
-            featured: false
-        },
+        // {
+        //     title: "Minesweeper Game",
+        //     description: "Classic Minesweeper game built with JavaScript featuring different difficulty levels and responsive design.",
+        //     technologies: ["JavaScript", "React", "Tailwind CSS", "Next.js"],
+        //     githubUrl: "https://github.com/jekenmaharjan/minesweeper",
+        //     liveUrl: "/maintenance",
+        //     featured: false
+        // },
         {
             title: "Calculator App",
             description: "Functional calculator application with clean UI and support for basic arithmetic operations.",
@@ -45,13 +45,54 @@ const ProjectsSection = () => {
             liveUrl: "https://lottery-game-jekode.vercel.app/",
             featured: false
         },
+        // {
+        //     title: "Text Summarization Tool",
+        //     description: "Automatic text summarization application using AI/ML algorithms to extract key information from long texts.",
+        //     technologies: ["Python", "React", "Node.js", "Express", "NLP"],
+        //     githubUrl: "https://github.com/jekenmaharjan/text-summarizer",
+        //     liveUrl: "/maintenance",
+        //     featured: false
+        // },
         {
-            title: "Text Summarization Tool",
-            description: "Automatic text summarization application using AI/ML algorithms to extract key information from long texts.",
-            technologies: ["Python", "React", "Node.js", "Express", "NLP"],
-            githubUrl: "https://github.com/jekenmaharjan/text-summarizer",
-            liveUrl: "/maintenance",
-            featured: false
+            "title": "Task Management App",
+            "description": "A modern, responsive task management application built with React, Vite, and Firebase that allows users to create, edit, and delete tasks in real time with data persistence and synchronization.",
+            "technologies": ["React", "Vite", "Firebase", "Tailwind CSS", "JavaScript"],
+            "githubUrl": "https://github.com/JekenMaharjan/task-management-app",
+            "liveUrl": "https://task-management-app-jekode.vercel.app/login",
+            "featured": true
+        },
+        {
+            "title": "Customizable Report Card",
+            "description": "A web app to generate customizable student report cards with interactive UI and real‑time inputs.",
+            "technologies": ["React", "Vite", "Tailwind CSS", "JavaScript"],
+            "githubUrl": "https://github.com/JekenMaharjan/Customizable-Report-Card",
+            "liveUrl": "https://customizable-report-card.vercel.app/",
+            "featured": false
+        },
+        {
+            "title": "Task Management App",
+            "description": "A full‑stack task management application that helps users organize and manage tasks with a clean UI and robust backend.",
+            "technologies": ["React", "PHP", "Laravel", "Nextjs", "Tailwind CSS", "JavaScript", "MySQL"],
+            "githubUrl": "https://github.com/JekenMaharjan/task-management",
+            "liveUrl": "https://task-management-henna-five.vercel.app/signin",
+            "featured": false
+        },
+        {
+            "title": "Interview Preparation Platform",
+            "description": "A frontend-only interview preparation platform built using React and Next.js to help developers track topics, progress, and notes while preparing for technical interviews.",
+            "technologies": ["React", "Nextjs", "Tailwind CSS", "JavaScript"],
+            "githubUrl": "https://github.com/JekenMaharjan/Interview-Preparation-Platform-Frontend",
+            "liveUrl": "https://interview-preparations-platform.vercel.app/dashboard",
+            "featured": true
+        },
+        {
+            "title": "Library Management System",
+            "description": "A full-stack Library Management System that allows users to manage books, track borrowing, and maintain records. Built with React and Next.js for the frontend, and ASP.NET Core Web API with C# for the backend, providing a robust and interactive platform for library operations.",
+            "technologies": ["React", "Next.js", "Tailwind CSS", "JavaScript", "C#", "ASP.NET Core Web API"],
+            "githubUrl": "https://github.com/JekenMaharjan/Library-Management-System-Frontend",
+            // "githubBackendUrl": "https://github.com/JekenMaharjan/Library-Management-System-Backend",
+            "liveUrl": "/maintenance",
+            "featured": false
         }
     ];
 
@@ -119,7 +160,7 @@ const ProjectsSection = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {otherProjects.map((project, index) => (
                             <Card key={index} className="group hover:shadow-xl transition-shadow duration-300 border border-border/50 bg-gray-800/70 rounded-lg">
-                                <CardHeader className="pb-3">
+                                <CardHeader>
                                     <div className="flex justify-between items-start">
                                         <CardTitle className="text-lg sm:text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
                                             {project.title}

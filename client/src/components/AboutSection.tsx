@@ -7,7 +7,7 @@ const AboutSection = () => {
         {
             icon: Code2,
             title: "Frontend Stack",
-            description: "React, TypeScript, Next.js, Tailwind CSS, ShadCN UI, Hero UI, Lucide React (icon set)"
+            description: "React, TypeScript, Next.js, Tailwind CSS, ShadCN UI, Hero UI, Lucide React (icon set), React Icons"
         },
         {
             icon: Server,
@@ -60,12 +60,11 @@ const AboutSection = () => {
                         </p>
 
                         {/* Tech Badges */}
-                        <div className="flex flex-wrap gap-2 mt-6">
+                        <div className="flex flex-wrap gap-5 mt-6">
                             {["JavaScript", "TypeScript", "React", "Node.js", "MongoDB", "Express", "Next.js", "Tailwind CSS"].map((tech) => (
                                 <Badge
                                     key={tech}
-                                    variant="secondary"
-                                    className="px-3 py-1 text-white bg-gray-700"
+                                    className="px-3 py-1 text-white text-[13px] bg-gray-700 hover:scale-110 transition-transform"
                                 >
                                     {tech}
                                 </Badge>
