@@ -1,10 +1,10 @@
-# 🌐 Jeken Maharjan — Portfolio Website
+# My-Personal-Portfolio Website
 
-This is my personal full-stack portfolio built using the **MERN stack** with **Next.js**, showcasing my skills, featured projects, and professional experience.
+This is my personal portfolio built using the **React** with **Next.js**, showcasing *About*, *Skills*, *Projects*, and *CV*.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend**: React (with Next.js)
 - **Styling**: Tailwind CSS, ShadCN UI
@@ -13,7 +13,7 @@ This is my personal full-stack portfolio built using the **MERN stack** with **N
 
 ---
 
-## ✨ Features
+## Features
 
 - Fully responsive design
 - About Me & Skills section
@@ -21,7 +21,7 @@ This is my personal full-stack portfolio built using the **MERN stack** with **N
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally.
 
@@ -38,8 +38,10 @@ Follow these steps to run the project locally.
 3. **Install dependencies**
    ```bash
     npm install
-    ``` 
+    ```
+
     or
+
     ```bash
     yarn install
     ```
@@ -48,7 +50,9 @@ Follow these steps to run the project locally.
    ```bash
     npm run dev
     ```
+
     or
+
     ```bash
     yarn dev
     ```
@@ -60,7 +64,7 @@ Follow these steps to run the project locally.
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 <img width="1894" height="923" alt="image" src="https://github.com/user-attachments/assets/c1ac5f76-aa2b-4981-a0b1-ecb1e81e4aaa" />
 
@@ -74,13 +78,13 @@ Follow these steps to run the project locally.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ---
 
-## 📬 Contact
+## Contact
 
 For any inquiries, reach out to us at:
 
@@ -89,13 +93,13 @@ For any inquiries, reach out to us at:
 
 ---
 
-## 🌐 Connect with Me
+## Connect with Me
 
-> 🌐 Portfolio: [**jekenmaharjan.com.np**](https://jekenmaharjan.com.np)
+> Portfolio: [**jekenmaharjan.com.np**](https://jekenmaharjan.com.np)
 
 > [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/jekenmaharjan/)  [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/JekenMaharjan)  [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter)](https://x.com/JekenMaharjan)  [![Linktree](https://img.shields.io/badge/-Connect-43E660?style=flat-square&logo=linktree&logoColor=white)](https://linktr.ee/JekenMaharjan)
 
-📬 Email: [maharjanjeken@gmail.com](mailto:maharjanjeken@gmail.com)
+Email: [maharjanjeken@gmail.com](mailto:maharjanjeken@gmail.com)
 
 
 
